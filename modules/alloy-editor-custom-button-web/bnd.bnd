@@ -1,0 +1,4 @@
+Bundle-Name: Liferay Frontend Editor Custom Button Web
+Bundle-SymbolicName: com.liferay.frontend.editor.custom.button.web
+Bundle-Version: 1.0.0
+Web-ContextPath: /frontend-editor-custom-button-web

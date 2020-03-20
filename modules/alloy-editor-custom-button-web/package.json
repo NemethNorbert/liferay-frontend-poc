@@ -1,0 +1,21 @@
+{
+	"dependencies": {
+		"@clayui/icon": "^3.0.4",
+		"alloyeditor": "2.11.2",
+		"react": "16.12.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.8.7",
+		"@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/preset-env": "^7.8.7",
+		"@babel/preset-react": "^7.8.3",
+		"liferay-npm-bundler": "^2.18.2"
+	},
+	"main": "main.js",
+	"name": "frontend-editor-custom-button-web",
+	"scripts": {
+		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+	},
+	"version": "1.0.0"
+}
