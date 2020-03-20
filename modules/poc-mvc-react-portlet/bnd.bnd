@@ -1,0 +1,4 @@
+Bundle-Name: poc-mvc-react-portlet
+Bundle-SymbolicName: com.liferay.poc.mvc.react.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.poc.mvc.react.portlet.constants
