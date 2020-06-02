@@ -1,0 +1,4 @@
+Bundle-Name: Grow Liferay CKeditor Configuration
+Bundle-SymbolicName: com.grow.liferay.ckeditor.configuration
+Bundle-Version: 1.0.0
+Web-ContextPath: /grow-ckeditor-configuration
