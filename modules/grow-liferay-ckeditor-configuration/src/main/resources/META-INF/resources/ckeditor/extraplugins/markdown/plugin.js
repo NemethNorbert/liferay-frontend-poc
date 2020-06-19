@@ -77,7 +77,7 @@ var turndownService;
                     loadCodeMirror(editor, editable);
                 }
                 if (typeof(marked) == 'undefined') {
-                    CKEDITOR.scriptLoader.load(rootPath + 'js/marked.js');
+                    CKEDITOR.scriptLoader.load('https://unpkg.com/marked@1.1.0/marked.min.js');
                 }
                 // Having to make <textarea> fixed sized to conquer the following bugs:
                 // 1. The textarea height/width='100%' doesn't constraint to the 'td' in IE6/7.
