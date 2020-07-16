@@ -1,4 +1,0 @@
-{
-	"plugins": ["@babel/plugin-transform-spread"],
-	"presets": ["@babel/preset-env", "@babel/preset-react"]
-}

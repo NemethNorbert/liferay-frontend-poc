@@ -1,18 +1,18 @@
 {
 	"$schema": "https://raw.githubusercontent.com/liferay/liferay-js-toolkit/master/resources/schemas/configuration.schema.json",
 	"system": {
-		"category": "my-react-widget",
-		"name": "My React Widget",
+		"category": "easy-react-widget",
+		"name": "easy-react-widget",
 		"fields": {
 			"fruit": {
 				"type": "string",
-				"name": "Favorite fruit",
-				"description": "Choose the fruit you like the most",
+				"name": "fruit",
+				"description": "fruit-help",
 				"default": "orange",
 				"options": {
-					"orange": "An orange",
-					"pear": "A pear",
-					"apple": "An apple"
+					"orange": "an-orange",
+					"pear": "a-pear",
+					"apple": "an-apple"
 				}
 			}
 		}
@@ -21,13 +21,13 @@
 		"fields": {
 			"drink": {
 				"type": "string",
-				"name": "Favorite drink",
-				"description": "Choose the drink you like the most",
+				"name": "drink",
+				"description": "drink-help",
 				"default": "water",
 				"options": {
-					"water": "Water",
-					"wine": "Wine",
-					"beer": "Beer"
+					"water": "water",
+					"wine": "wine",
+					"beer": "beer"
 				}
 			}
 		}

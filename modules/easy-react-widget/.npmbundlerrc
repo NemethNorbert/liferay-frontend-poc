@@ -3,7 +3,8 @@
 		"output-dir": "dist",
 		"features": {
 			"js-extender": true,
-			"web-context": "/my-react-widget",
+			"web-context": "/easy-react-widget",
+			"localization": "features/localization/Language",
 			"configuration": "features/configuration.json"
 		}
 	},
