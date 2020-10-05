@@ -38,15 +38,17 @@ public class CustomButtonDynamicInclude implements DynamicInclude {
 			HttpServletResponse httpServletResponse, String key)
 		throws IOException {
 
-		ScriptData scriptData = new ScriptData();
+			ScriptData scriptData = new ScriptData();
 
-		String buttonsCollection = _npmResolver.resolveModuleName(
-			"frontend-editor-custom-button-web/main");
-
-		scriptData.append(
-			null, "", buttonsCollection, ScriptData.ModulesType.ES6);
-
-		scriptData.writeTo(httpServletResponse.getWriter());
+			String buttonsCollection = _npmResolver.resolveModuleName(
+				"frontend-editor-custom-button-web/main");
+	
+			scriptData.append(
+				null,
+				"main.default();", buttonsCollection + " as main",
+				ScriptData.ModulesType.ES6);
+	
+			scriptData.writeTo(httpServletResponse.getWriter());
 	}
 
 	@Override
@@ -59,5 +61,4 @@ public class CustomButtonDynamicInclude implements DynamicInclude {
 
 	@Reference
 	private NPMResolver _npmResolver;
-
 }

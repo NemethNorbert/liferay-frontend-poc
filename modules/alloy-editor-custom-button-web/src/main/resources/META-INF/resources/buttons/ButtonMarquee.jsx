@@ -32,5 +32,4 @@ class ButtonMarquee extends React.Component {
 	}
 }
 
-export default AlloyEditor.Base.ButtonActionStyle(AlloyEditor.Base.ButtonStateClasses(AlloyEditor.Base.ButtonStyle(ButtonMarquee))
-);
+export default ButtonMarquee;
